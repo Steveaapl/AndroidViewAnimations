@@ -45,7 +45,7 @@ public class YoYo {
     private List<Animator.AnimatorListener> callbacks;
     private View target;
 
-    private YoYo(AnimationComposer animationComposer) {
+    public YoYo(AnimationComposer animationComposer) {
         animator = animationComposer.animator;
         duration = animationComposer.duration;
         delay = animationComposer.delay;
